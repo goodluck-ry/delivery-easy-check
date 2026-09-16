@@ -1,0 +1,25 @@
+# ===== 构建产物（防从开发目录同步时混入）=====
+build/
+.dart_tool/
+.gradle/
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.iml
+.vscode/
+
+# ===== Android 本机配置（含 SDK 路径，绝不入库）=====
+local.properties
+
+# ===== 数据库 =====
+*.db
+*.db-shm
+*.db-wal
+
+# ===== Python（防误混入原项目后端文件）=====
+__pycache__/
+*.pyc
+
+# ===== 系统杂物 =====
+.DS_Store
+Thumbs.db
